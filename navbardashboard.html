@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Containers</title>
+    <link rel="stylesheet" href="navbardashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+
+    <div class="sidebar">
+        <div class="logo">
+            <img src="aeroflex.jpg" alt="Logo" class="logo-image">
+            <span class="logo-name">AeroFlex</span>
+        </div>
+        <div class="sidebar-content">
+            <ul class="lists">
+                <li class="list">
+                    <a href="#" class="nav-link">
+                        <i class="bx bx-home-alt icon"></i>
+                        <span class="link">Dashboard</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" class="nav-link">
+                        <i class='bx bxs-plane-alt icon'></i>
+                        <span class="link">Airline Management</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" class="nav-link">
+                        <i class='bx bxs-plane-take-off icon'></i>
+                        <span class="link">Flight Management</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" class="nav-link">
+                        <i class='bx bxs-calendar icon'></i>
+                        <span class="link">Schedule Flights</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#" class="nav-link">
+                        <i class='bx bx-wallet icon'></i>
+                        <span class="link">Payment History</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" class="nav-link">
+                        <i class="bx bx-heart icon"></i>
+                        <span class="link">Account</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" class="nav-link">
+                        <i class='bx bxs-user icon'></i>
+                        <span class="link">Profile</span>
+                    </a>
+                </li>
+            </ul>
+
+             <div class="bottom-content">
+                <li class="list">
+                    <a href="#" class="nav-link">
+                        <i class="bx bx-log-out icon"></i>
+                        <span class="link">Logout</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" class="nav-link">
+                        <i class='bx bxs-plus-circle icon'></i>
+                        <span class="link">Add new Assistant</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </div>
+
+    <div class="header">
+        <!-- <img src="aeroflexlogo.png" alt="Logo" class="logo"> -->
+        <div class="header-buttons">
+            <button class="btn"><i class="fa-solid fa-plane-departure"></i> ADD NEW FLIGHT</button>
+            <button class="btn"><i class="fa-solid fa-plane-departure"></i> ADD NEW AIRLINE</button>
+        </div>
+    </div>
+
+    <div class="nav-container">
+        <div class="nav-box">
+            <div class="nav-box-icon">
+                <i class="fas fa-plane"></i> 
+            </div>
+            <div class="nav-box-content">
+                <span>Available Airlines</span>
+                <span class="nav-box-number">5</span>
+                <span class="nav-box-subtext">
+                    <span class="nav-box-highlight">Vistara</span> lastly added
+                </span>
+            </div>
+        </div>
+        
+        <div class="nav-box">
+            <div class="nav-box-icon">
+                <i class="fa-solid fa-plane-departure"></i> 
+            </div>
+            <div class="nav-box-content">
+                <span>Available Flights</span>
+                <span class="nav-box-number">8</span>
+                <span class="nav-box-subtext">
+                    Flight No: <span class="nav-box-highlight">108</span> lastly added
+                </span>
+            </div>
+        </div>
+
+        <div class="nav-box">
+            <div class="nav-box-icon">
+                <i class="fas fa-users"></i> 
+            </div>
+            <div class="nav-box-content">
+                <span>Total Bookings</span>
+                <span class="nav-box-number">30</span>
+                <span class="nav-box-subtext">
+                    From <span class="nav-box-highlight">14</span> registrations
+                </span>
+            </div>
+        </div>
+
+        <div class="nav-box">
+            <div class="nav-box-icon">
+                <i class="fas fa-money-bill-alt"></i> 
+            </div>
+            <div class="nav-box-content">
+                <span>Total Earnings</span>
+                <span class="nav-box-number">INR 198933</span>
+                <span class="nav-box-subtext">
+                    Today's Earnings: <span class="nav-box-highlight">INR 0</span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

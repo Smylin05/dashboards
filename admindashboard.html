@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="admindashboard.css" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <!-- <div class="logo">
+          <span class="logo-name">AeroFlex</span>
+        </div> -->
+        <div class="logo">
+          <img src="aeroflex.jpg" alt="Logo" class="logo-image">
+          <span class="logo-name">AeroFlex</span>
+       </div>
+        <div class="sidebar">
+          <div class="sidebar-content">
+            <ul class="lists">
+              <li class="list">
+                <a href="#" class="nav-link">
+                  <i class="bx bx-home-alt icon"></i>
+                  <span class="link">Dashboard</span>
+                </a>
+              </li>
+              <!-- <li class="list">
+                <a href="#" class="nav-link">
+                  <i class='bx bxs-plane-alt icon'></i>
+                  <span class="link">Airline Management</span>
+                </a>
+              </li> -->
+              <li class="list">
+                <a href="#" class="nav-link">
+                  <i class='bx bxs-plane-take-off icon'></i>
+                  <span class="link">Flights</span>
+                </a>
+              </li>
+             
+              <li class="list">
+                <a href="#" class="nav-link">
+                    <i class='bx bx-money icon'></i>
+                  <span class="link">Wallet</span>
+                </a>
+              </li>
+
+              <li class="list">
+                <a href="#" class="nav-link">
+                  <i class='bx bxs-calendar icon' ></i>
+                  <span class="link">Reports </span>
+                </a>
+              </li>
+              <li class="list">
+                <a href="#" class="nav-link">
+                    <i class='bx bx-bar-chart-alt-2 icon'></i>
+                  <span class="link">Statistics </span>
+                </a>
+              </li>
+              <!-- <li class="list">
+                <a href="#" class="nav-link">
+                  <i class='bx bxs-user icon'></i>
+                  <span class="link">Profile</span>
+                </a>
+              </li> -->
+            </ul>
+
+            <div class="bottom-content">
+             
+              <li class="list">
+                <a href="#" class="nav-link">
+                    <i class='bx bxs-cog icon'></i>
+                  <span class="link">Settings</span>
+                </a>
+              </li>
+              <li class="list"></li>
+                <a href="#" class="nav-link">
+                  <i class="bx bx-log-out icon"></i>
+                  <span class="link">Logout</span>
+                </a>
+              </li>
+             
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="content">
+        <!-- Top Div Bar -->
+
+
+        <!-- Bottom Div -->
+        <div class="bottom-bar">
+          <div class="container-wrapper">
+            <div class="container-box" >
+              <img src="aeroplane.jpg" alt="Airbus">
+              <p>Airbus 811 -78 flights</p>
+            </div>
+            <div class="container-box">
+              <img src="aeroplane.jpg" alt="Boeing">
+             <p>Boeing 787 -60 flights</p>
+            </div>
+            <div class="container-box">
+              <img src="aeroplane.jpg" alt="Total Flights">
+              <p>Total Flights -150 </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-section">
+            <!-- Last Trips Section -->
+            <div class="last-trips">
+              <h3>Last Trips</h3>
+              <p>Overview of latest month</p>
+              <div class="trip">
+                <div class="member-info">
+                  <img src="man.jpg" alt="John Doe" class="member-image">
+                  <div class="member-details">
+                    <span class="member-name">John Doe</span>
+                    <span class="member-email">john@gmail.com</span>
+                  </div>
+                </div>
+                <div class="flight-info">
+                  <span class="flight-name">Qatar</span>
+                  <span class="total-members">5</span>
+                  <span class="ticket-price">$56k</span>
+                </div>
+              </div>
+          
+              <div class="trip">
+                <div class="member-info">
+                  <img src="man.jpg" alt="Martin Lewis" class="member-image">
+                  <div class="member-details">
+                    <span class="member-name">Martin Lewis</span>
+                    <span class="member-email">martin@gmail.com</span>
+                  </div>
+                </div>
+                <div class="flight-info">
+                  <span class="flight-name">Emirates</span>
+                  <span class="total-members">2</span>
+                  <span class="ticket-price">$56k</span>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Statistics Section -->
+            <div class="statistics">
+              <h3>Statistics</h3>
+              <div class="chart">
+                <!-- Placeholder for Chart -->
+                <img src="statistic.png" alt="Statistics Chart" class="chart-image">
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

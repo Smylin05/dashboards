@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flight Form</title>
+  <link rel="stylesheet" href="newschedule.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <span class="logo-name"></span>
+    </div>
+    <div class="sidebar">
+      
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <img src="aeroflexlogo.png" alt="Logo">
+      </div>
+      <h2>
+        Schedule A Flight </h2> 
+        <!-- <button class="button"><i class="fa-solid fa-plane-up"></i> VIEW FLIGHTS</button> -->
+     
+    </div>
+
+    <div class="flight-form">
+      <form action="#" method="POST">
+        <div class="form-group-wrapper white-bg">
+          <div class="form-group">
+            <label for="airline">Select Airline:</label>
+            <select id="airline" name="airline">
+              <option value="">Select Airline</option>
+              <option value="AirIndia">Air India</option>
+              <option value="AirFrance">AirFrance</option>
+              <option value="Indigo">Indigo</option>
+              <option value="Lufthansa">Lufthansa</option>
+              <option value="MalaysiaAirlines">Malaysia Airlines</option>
+              <option value="SpiceJet">SpiceJet</option>
+              <option value="Vistara">Vistara</option>
+              <option value="QatarAirways">Qatar Airways</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group-wrapper grey-bg">
+            <div class="form-group">
+              <label for="airline">Select Flight Number:</label>
+              <select id="airline" name="airline">
+                <option value="">Select Flight Number</option>
+                <option value="AirIndia">BD674</option>
+                <option value="AirFrance">GF5232</option>
+                <option value="Indigo">BA1476</option>
+                <option value="Lufthansa">BA1422</option>
+                <option value="MalaysiaAirlines">AA8017</option>
+                <option value="SpiceJet">RT9122</option>
+                <option value="Vistara">XZ0352</option>
+                <option value="QatarAirways">TY2053</option>
+              </select>
+            </div>
+          </div>
+        <!-- Additional form fields here -->
+        <!-- <div class="form-group-wrapper grey-bg">
+          <div class="form-group">
+              <label for="flight-number">Enter Flight Number:</label>
+              <input type="text" id="flight-number" name="flight-number">
+          </div>
+      </div> -->
+
+      <!-- Flight Has Checkboxes -->
+      <div class="form-group-wrapper white-bg">
+          <div class="form-group">
+              <label for="flight-has">Flight Has:</label>
+              <div class="checkbox-group">
+                  <label><input type="checkbox" name="class" value="economy"> Economy Class</label>
+                  <label><input type="checkbox" name="class" value="business"> Business Class</label>
+                  <label><input type="checkbox" name="class" value="first"> First Class</label>
+                  <label><input type="checkbox" name="class" value="first"> Premium Economy</label>
+              </div>
+          </div>
+      </div>
+
+      <!-- Enter Number of Economy Class Seats -->
+      <div class="form-group-wrapper grey-bg">
+          <div class="form-group">
+              <label for="economy-seats">Enter Number of Economy Class Seats:</label>
+              <input type="number" id="economy-seats" name="economy-seats">
+          </div>
+      </div>
+      <div class="form-group-wrapper white-bg">
+        <div class="form-group">
+            <label for="economy-seats">Enter Number of Business Class Seats:</label>
+            <input type="number" id="economy-seats" name="economy-seats">
+        </div>
+     </div>
+
+     <div class="form-group-wrapper grey-bg">
+        <div class="form-group">
+            <label for="economy-seats">Enter Number of First Class Seats:</label>
+            <input type="number" id="economy-seats" name="economy-seats">
+        </div>
+     </div>
+     <div class="form-group-wrapper white-bg">
+        <div class="form-group">
+            <label for="economy-seats">Enter Number of Premium Economy Class Seats:</label>
+            <input type="number" id="economy-seats" name="economy-seats">
+        </div>
+     </div>
+
+     <div class="form-group-wrapper grey-bg">
+        <div class="form-group">
+          <label for="airline">Select Source</label>
+          <select id="airline" name="airline">
+            <option value="">Select Source</option>
+            <option value="AirIndia">Mumbai</option>
+            <option value="AirFrance">Delhi</option>
+            <option value="Indigo">Bangalore</option>
+            <option value="Lufthansa">Chennai</option>
+            <option value="MalaysiaAirlines">Madurai</option>
+            <option value="SpiceJet">Bombay</option>
+            <option value="Vistara">Sri Lanka</option>
+            <option value="QatarAirways">Thiruvanathapuram</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group-wrapper white-bg">
+        <div class="form-group">
+          <label for="airline">Select Destination:</label>
+          <select id="airline" name="airline">
+            <option value="">Select Destination</option>
+            <option value="AirIndia">Chennai</option>
+            <option value="AirFrance">Kolkata</option>
+            <option value="Indigo">NewDelhi</option>
+            <option value="Lufthansa">SriLanka</option>
+            <option value="MalaysiaAirlines">Malaysia </option>
+            <option value="SpiceJet">USA</option>
+            <option value="Vistara">Canada</option>
+            <option value="QatarAirways">Dubai</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group-wrapper grey-bg">
+        <div class="form-group">
+          <label for="airline">Select Departure Date-Time of Flight</label>
+          <input type="datetime-local" id="departure-time" name="departure-time"/>
+        </div>
+      </div>
+      <div class="form-group-wrapper white-bg">
+        <div class="form-group">
+            <label for="economy-seats">Select Arrival Date-Time of Flight</label>
+            <input type="datetime-local" id="arrival-time" name="arrival-time"/>
+        </div>
+     </div>
+
+     <div class="form-group-wrapper grey-bg">
+        <div class="form-group">
+            <label for="economy-seats">Total Number of Total Seats:</label>
+            <input type="number" id="economy-seats" name="economy-seats">
+        </div>
+     </div>
+
+        <div class="form-buttons">
+          <button type="submit" class="btn submit">Submit</button>
+          <button type="reset" class="btn reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

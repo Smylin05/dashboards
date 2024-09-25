@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flight Form</title>
+  <link rel="stylesheet" href="addflight.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <span class="logo-name"></span>
+    </div>
+    <div class="sidebar">
+      
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <img src="aeroflexlogo.png" alt="Logo">
+      </div>
+      <h2>
+        Add a Flight
+        <button class="button"><i class="fa-solid fa-plane-up"></i> VIEW FLIGHTS</button>
+      </h2>
+    </div>
+
+    <div class="flight-form">
+      <form action="#" method="POST">
+        <div class="form-group-wrapper white-bg">
+          <div class="form-group">
+            <label for="airline">Select Airline:</label>
+            <select id="airline" name="airline">
+              <option value="">Select Airline</option>
+              <option value="AirIndia">Air India</option>
+              <option value="AirFrance">AirFrance</option>
+              <option value="Indigo">Indigo</option>
+              <option value="Lufthansa">Lufthansa</option>
+              <option value="MalaysiaAirlines">Malaysia Airlines</option>
+              <option value="SpiceJet">SpiceJet</option>
+              <option value="Vistara">Vistara</option>
+              <option value="QatarAirways">Qatar Airways</option>
+            </select>
+          </div>
+        </div>
+        <!-- Additional form fields here -->
+        <div class="form-group-wrapper grey-bg">
+          <div class="form-group">
+              <label for="flight-number">Enter Flight Number:</label>
+              <input type="text" id="flight-number" name="flight-number">
+          </div>
+      </div>
+
+      <div class="form-group-wrapper white-bg">
+        <div class="form-group">
+            <label for="flight-number">Enter Aircraft Type:</label>
+            <div class="checkbox-group">
+            <label><input type="checkbox" name="class" value="economy"> Boeing </label>
+            <label><input type="checkbox" name="class" value="business"> Airbus</label>
+            </div>
+        </div>
+    </div>
+
+
+      <!-- Flight Has Checkboxes -->
+      <div class="form-group-wrapper grey-bg">
+          <div class="form-group">
+              <label for="flight-has">Flight Has:</label>
+              <div class="checkbox-group">
+                  <label><input type="checkbox" name="class" value="economy"> Economy Class</label>
+                  <label><input type="checkbox" name="class" value="business"> Business Class</label>
+                  <label><input type="checkbox" name="class" value="first"> First Class</label>
+                  <label><input type="checkbox" name="class" value="first"> Premium Economy</label>
+              </div>
+          </div>
+      </div>
+
+      <!-- Enter Number of Economy Class Seats -->
+      <div class="form-group-wrapper white-bg">
+          <div class="form-group">
+              <label for="economy-seats">Enter Number of Economy Class Seats:</label>
+              <input type="number" id="economy-seats" name="economy-seats">
+          </div>
+      </div>
+      <div class="form-group-wrapper grey-bg">
+        <div class="form-group">
+            <label for="economy-seats">Enter Number of Business Class Seats:</label>
+            <input type="number" id="economy-seats" name="economy-seats">
+        </div>
+     </div>
+
+     <div class="form-group-wrapper white-bg">
+        <div class="form-group">
+            <label for="economy-seats">Enter Number of First Class Seats:</label>
+            <input type="number" id="economy-seats" name="economy-seats">
+        </div>
+     </div>
+     <div class="form-group-wrapper grey-bg">
+        <div class="form-group">
+            <label for="economy-seats">Enter Number of Premium Economy Class Seats:</label>
+            <input type="number" id="economy-seats" name="economy-seats">
+        </div>
+     </div>
+
+     <div class="form-group-wrapper white-bg">
+        <div class="form-group">
+            <label for="economy-seats">Total Number of Total Seats:</label>
+            <input type="number" id="economy-seats" name="economy-seats">
+        </div>
+     </div>
+        <div class="form-buttons">
+          <button type="submit" class="btn submit">Submit</button>
+          <button type="reset" class="btn reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
